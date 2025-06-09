@@ -41,7 +41,7 @@ int main() {
         printf("Decrypted text is: %s", decrypted_text_p);
         printf("Do you want to encrypt and decrypt another text?(enter - yes) ");
         fgets(exit_s, 50, stdin);
-        used();
+
 
     }
 
