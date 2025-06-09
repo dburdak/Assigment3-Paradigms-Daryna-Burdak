@@ -1,0 +1,3 @@
+/Users/darynaburdak/CLionProjects/assigment3_exe/cmake-build-debug/CMakeFiles/assigment3_exe.dir
+/Users/darynaburdak/CLionProjects/assigment3_exe/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/darynaburdak/CLionProjects/assigment3_exe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
