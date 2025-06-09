@@ -30,9 +30,17 @@ int main() {
     char * decrypted_text_p;
     char text[300];
     while (exit_s!="yes") {
+
         printf("Enter the shift key for encrypting: ");
         fgets(key_text, 20, stdin);
         key = atoi(key_text);
+        while (key>26 || key<0) {
+            printf("You have entered wrong key, it should be <26 and >0 ");
+            printf("Enter the shift key for encrypting: ");
+            fgets(key_text, 20, stdin);
+            key = atoi(key_text);
+        }
+
         printf("Enter the text for encrypting: ");
         fgets(text, 300, stdin);
         encrypted_text_p=encrypt(text, key);
